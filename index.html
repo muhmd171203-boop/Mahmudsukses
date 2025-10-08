@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portofolio online M. Mahmud Dwi Ismaryanto, mahasiswa Sistem Informasi UNDIKSHA. Menampilkan proyek, pendidikan, sertifikat, hobi, dan informasi kontak.">
+    <title>Portofolio M. MAHMUD DWI ISMARYANTO</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="particle-bg"></canvas>
+
+    <header>
+        <nav>
+            <a href="#home" class="nav-logo glow-effect">Portofolio</a> 
+            <div class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="nav-links">
+                <li><a href="#about">Tentang Saya</a></li>
+                <li><a href="#education">Pendidikan</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#certificates">Sertifikat</a></li>
+                
+                <li><a href="#cv">CV</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="home-container">
+                <div class="home-text animate-left">
+                    <h1>
+                        <span class="neon-text">M. MAHMUD DWI</span><br>
+                        <span class="neon-text">ISMARYANTO</span>
+                    </h1>
+                    <p class="subtitle" id="typewriter-text"></p>
+                </div>
+                <div class="home-image animate-right">
+                    <img src="images/profil.jpg.jpg" alt="Foto Profil Mahmud" class="profile-picture">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="container">
+            <h2 class="animate-title">Tentang Saya</h2>
+            <p class="animate-content">Sebagai mahasiswa Sistem Informasi yang antusias dari Universitas Pendidikan Ganesha, saya memiliki hasrat besar untuk memadukan dunia teknologi dengan jiwa wirausaha. Saya tidak hanya mempelajari teori, tetapi juga bersemangat untuk menerapkan kemampuan analisis dan pemecahan masalah secara sistematis untuk menciptakan solusi digital yang efisien dan inovatif. Tujuan saya adalah membantu bisnis Anda bertumbuh dengan memberikan nilai nyata melalui teknologi. Dengan semangat tinggi untuk belajar dan memberikan hasil terbaik, saya siap menjadi mitra Anda dalam mewujudkan ide menjadi kenyataan dan mencapai kesuksesan bersama.</p>
+        </section>
+
+        <section id="education" class="container">
+            <h2 class="animate-title">Pendidikan</h2>
+            <div class="card-grid animate-content education-grid education-icons">
+                <div class="card education-card">
+                    <img src="images/sd.jpeg" alt="SD Muhammadiyah 8&10 Banjarmasin">
+                    <div class="card-content">
+                        <h3>SD Muhammadiyah 8&10 Banjarmasin</h3>
+                        <p>2010 - 2016</p>
+                    </div>
+                </div>
+                <div class="card education-card">
+                    <img src="images/smp.jpeg" alt="Mts Pangeran Antasari Martapura">
+                    <div class="card-content">
+                        <h3>Mts Pangeran Antasari Martapura</h3>
+                        <p>2016 - 2019</p>
+                    </div>
+                </div>
+                <div class="card education-card">
+                    <img src="images/sma.jpeg" alt="SMA Insan Cendekia Mandiri Boarding School Sidoarjo">
+                    <div class="card-content">
+                        <h3>SMA Insan Cendekia Mandiri Boarding School Sidoarjo</h3>
+                        <p>2019 - 2022</p>
+                    </div>
+                </div>
+                <div class="card education-card">
+                    <img src="images/univ.jpeg" alt="Universitas Pendidikan Ganesha Singaraja">
+                    <div class="card-content">
+                        <h3>Universitas Pendidikan Ganesha Singaraja</h3>
+                        <p>2024 - Sekarang</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="container">
+            <h2 class="animate-title">Project Pilihan</h2>
+            <div class="card-grid animate-content">
+                <a href="https://naji-technologia.github.io/Website-Wayang/" target="_blank" class="card">
+                    <img src="images/wayang.png" alt="Gambar Proyek Website Wayang">
+                    <div class="card-content">
+                        <h3>Website Wayang</h3>
+                        <p>Platform digital untuk melestarikan seni pewayangan Indonesia bagi generasi baru. Jelajahi profil tokoh ikonik, sejarah yang diakui UNESCO, dan galeri visual yang memukau untuk kembali mengenali dan mencintai warisan budaya bangsa.</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section id="certificates" class="container">
+            <h2 class="animate-title">Sertifikat</h2>
+            <div class="card-grid animate-content certificates-grid">
+                <a href="https://drive.google.com/file/d/ID_SERTIFIKAT_JAVA/view?usp=sharing" target="_blank" class="card">
+                    <img src="images/sertifikat_course_Java_page-0001.jpg" alt="Sertifikat Course Java">
+                    <div class="card-content">
+                        <h3>Pemrograman Java</h3>
+                        <p><strong>Dikeluarkan Oleh:</strong> Dicoding</p>
+                    </div>
+                </a>
+                <a href="https://drive.google.com/file/d/ID_SERTIFIKAT_MANAJEMEN_PROYEK/view?usp=sharing" target="_blank" class="card">
+                    <img src="images/sertifikat_course_Manajemen Proyek_page-0001.jpg" alt="Sertifikat Manajemen Proyek">
+                    <div class="card-content">
+                        <h3>Manajemen Proyek</h3>
+                        <p><strong>Dikeluarkan Oleh:</strong> Dicoding</p>
+                    </div>
+                </a>
+                <a href="https://drive.google.com/file/d/ID_SERTIFIKAT_C/view?usp=sharing" target="_blank" class="card">
+                    <img src="images/sertifikat_course_C_page-0001.jpg" alt="Sertifikat Pemrograman C">
+                    <div class="card-content">
+                        <h3>Pemrograman dengan C</h3>
+                        <p><strong>Dikeluarkan Oleh:</strong> Dicoding</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        
+
+        <section id="cv" class="container">
+            <h2 class="animate-title">Curriculum Vitae</h2>
+            <div class="animate-content">
+                <p>Lihat lebih detail mengenai perjalanan karir dan kualifikasi saya.</p>
+                <a href="https://drive.google.com/file/d/1GYuRa-08cHzGmDw7MLpO_ZPu0hnvVkV7/view?usp=sharing" target="_blank" class="btn primary-btn">Lihat CV</a>
+            </div>
+        </section>
+
+        <section id="contact" class="container">
+            <h2 class="animate-title">Hubungi Saya</h2>
+            <div class="animate-content">
+                <p>Mari terhubung! Anda bisa menemukan saya di platform berikut atau kirim email langsung.</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/mahmuddwisma?igsh=ODE3bnU2MGU3Nm1j" target="_blank" title="Instagram"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+                    <a href="https://www.tiktok.com/@mahmuddwisma?_t=ZS-90BOk5njWrq&_r=1" target="_blank" title="TikTok"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16.5 6.5a4.5 4.5 0 1 0 4.5 4.5V11h-4.5V6.5z"></path><path d="M8 17.5a4.5 4.5 0 1 0 4.5-4.5V13H8v4.5z"></path><path d="M8 8V2l8 4"></path></svg></a>
+                    <a href="https://www.linkedin.com/in/muhamad-mahmud-a27ab0387/7" target="_blank" title="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+                </div>
+                <a href="mailto:muhmd171203@gmail.com" class="btn primary-btn">Kirim Email</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mahmud Ismaryanto. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
